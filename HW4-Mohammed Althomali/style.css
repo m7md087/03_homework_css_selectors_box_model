@@ -1,0 +1,133 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-size: 1em;
+   }
+body{
+    background-color: #f0efef;
+    margin: 0;
+    padding: 0;
+    font-family: open sans-serif;
+}
+.container{
+    width:100%;
+    margin:0 auto;
+    display: grid;
+   }
+   .navigation{
+    padding: 40px 100px;
+    background-color: #033048;
+    padding-top: 20px;
+   }
+#logo{
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    left: 100%;
+    padding-top: 50px;
+    
+}
+h1{
+   font-size:  2em;
+   color:#033048;
+}
+h2{
+    float: right;
+    color:#033048;
+    font-weight: 1.25em;
+ }
+ h3{
+      
+        color:#033048;
+        font-weight: 1.25em;
+     }
+h4{
+    list-style-type: none;
+    font-size: 1em;
+    text-decoration: none;
+    color:#033048;
+    font-weight:normal;
+}
+h5{
+    list-style-type: none;
+    font-size: 2em;
+    text-decoration: none;
+    color:#f9e42e;
+    font-weight:bold;
+
+}
+
+p{
+    font-weight: 600;
+    color:#606161;
+    
+}
+b{
+    color:white;
+    font-weight: 1.25em;
+}
+nav{
+    font-family: "Myriad pro Semibold";
+    font-size: 1em;
+}
+nav > ul > li {
+    display: block;
+    margin: 0 0 0 40px;
+    float: right;
+
+  }
+nav > ul > li > a {
+    color:#f9e42e;
+    text-decoration: none;
+    font-weight: bold;
+  }
+.content{
+    display: grid;
+    grid-auto-columns: 65%  35%;
+    grid-template: "left right";
+    margin: 20px;
+    
+}
+.right > a{
+    list-style-type: none;
+    font-size: 1em;
+    text-decoration: none;
+    color:#033048;
+    font-weight:normal;
+
+}
+.add {
+  border: 1px solid rgba(0, 0, 0, .2);
+  background: white;
+  width: 200px;
+  border: 15px solid white;
+  padding: 30px;
+  margin: 20px;
+  height: 400px;
+  font-weight: bold;
+  color:#033048;
+  font-size: 30px;
+
+}
+.sign{
+    padding: 40px 90px;
+    background-color: #f9e42e;
+    text-align: center;
+   }
+.sign > a{
+    background-color: #033048;
+    color: white;
+    padding: 14px 90px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.25em;  
+}
+.end{
+    padding: 100px 90px;
+    background-color:black;
+    text-align: center;
+    display: inline-block;
+    
+   }
